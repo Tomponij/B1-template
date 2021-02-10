@@ -233,6 +233,10 @@ footer{
         url('../fonts/heartbeat.ttf') format('ttf');
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 /*
   Animations for fading in logo on page load
 */
