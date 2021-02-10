@@ -205,6 +205,11 @@ footer{
 .product-information span{
   font-weight: bold;
 }
+
+.inlineOpen{
+  display: flex;
+  align-items: inline ;
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
