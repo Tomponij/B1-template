@@ -159,6 +159,10 @@ button{
 .description{
   flex: 1;
 }
+.row{
+  display: flex;
+  align-items: inline;
+}
 
 footer{
   padding: 1em;
