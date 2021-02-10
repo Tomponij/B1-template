@@ -208,6 +208,17 @@ footer{
     align-items: center;
   }
 }
+.emphasize{
+  border-left: #27AE60 5px solid;
+  box-shadow: 1px 0px 5px #27AE60;
+}
+
+.emphasizeH2{
+  margin: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
 
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
