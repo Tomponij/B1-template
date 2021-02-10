@@ -193,6 +193,12 @@ footer{
   justify-content: center;
 }
 
+.sidy-by-side{
+  display: flex;
+  align-items: inline ;
+  justify-content: space-between;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -206,6 +212,11 @@ footer{
 
   .hidden-on-sm{
     display: none;
+  }
+
+  .sidy-by-side{
+    display: flex;
+    align-items: column;
   }
 }
 
