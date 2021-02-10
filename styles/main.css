@@ -156,9 +156,6 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-}
-
 .description{
   flex: 1;
 }
@@ -199,6 +196,15 @@ footer{
   justify-content: space-between;
 }
 
+.product-info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: inline;
+}
+
+.product-information span{
+  font-weight: bold;
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -215,6 +221,20 @@ footer{
   }
 
   .sidy-by-side{
+    display: flex;
+    align-items: column;
+  }
+
+  .product-info{
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  .product-information span{
+    font-weight: bold;
+  }
+
+  .product-info{
     display: flex;
     align-items: column;
   }
